@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap{
+            height: 600px;
+            width: 600px;
+            background-color: aquamarine;
+            display: flex;
+            
+            }
+        .item{
+            width: 0;
+            height: 160px;
+            background-color: cadetblue;
+            font-size: 50px;
+            margin: 5px;
+            flex-grow: 1;
+            transition: 1s;
+        }
+        .item1, .item3{
+            width: 200px;
+            flex-shrink: 0;
+        }
+        .item2{
+            width: 100%;
+            flex-shrink: 1;
+            flex-grow: 1;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        
+    </div>
+</body>
+</html>

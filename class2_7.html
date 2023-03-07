@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 1000px;
+            height: 200px;
+            background-color: aquamarine;
+            display: grid;
+            grid-template-columns: repeat(2, 500px);
+            grid-template-rows: 200px;
+        }
+        .item{
+            display: flex;
+            
+        }
+        .item .text{
+            width: 66%;
+            padding: 10px;
+        }
+        .pic{
+            width: 33%;
+        }
+        .pic img{
+            width: 100%;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="item">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, ex!</p>                
+            </div>
+            <div class="pic">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+        </div>
+        <div class="item">
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, ex!</p>   
+
+            </div>
+            <div class="pic">
+                <img src="https://picsum.photos/300/200/?random=10">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

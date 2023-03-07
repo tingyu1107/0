@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 300px;
+            border: 2px solid pink;
+            display: flex;
+            position: relative;
+        }
+        .text{
+            width: 300px;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            background-color: #0008;
+            color: #ece0e0;
+        }
+        .pic{
+            
+        }
+        .card:hover .text{
+            background-color: #fa0a;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="pic">
+            <img src="https://picsum.photos/300/200/?random=10">
+        </div>
+        <div class="text">
+            <h1>title</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, voluptate!</p>
+        </div>
+    </div>
+</body>
+</html>
